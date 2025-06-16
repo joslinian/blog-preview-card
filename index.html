@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="/assets/fonts/Figtree-VariableFont_wght.ttf" />
+    <link rel="stylesheet" href="/assets/fonts/Figtree-Italic-VariableFont_wght.ttf"/>
+    <link rel="stylesheet" href="/assets/fonts/static/Figtree-Medium.ttf" />
+    <link rel="stylesheet" href="/assets/fonts/static/Figtree-ExtraBold.ttf" /> -->
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="blog-preview-card">
+        <img
+          class="blog-preview-image"
+          src="./assets/images/illustration-article.svg"
+          alt="Image of illustration article preview"
+        />
+        <div class="card-content">
+          <div class="card-header">
+            <p class="card-header-tag">Learning</p>
+            <p class="card-publish-date">Published 21 Dec 2023</p>
+          </div>
+          <h1 class="card-blog-title">
+            HTML & CSS Foundations
+          </h1>
+          <div class="card-blog-description">
+            <p>These languages are the backbone of every website, defining structure, content and presentation.</p>
+          </div>
+          <div class="card-footer">
+            <img
+              class="card-author-avatar"
+              src="./assets/images/image-avatar.webp"
+              alt="Image of author Greg Hooper"/>
+            <p class="card-author">Greg Hooper</p>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://www.github.com/joslinian">Ian R. Joslin</a>.
+      </div>
+    </div>
+  </body>
 </html>
